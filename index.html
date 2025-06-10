@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Convert Maney</title>
+</head>
+
+<body>
+    <div class="gif">
+        <img src="./assets/gifprojeto.gif" alt="imagem-convertendo">
+    </div>
+
+    <main >
+        
+        
+        <label>
+            converte <b>de</b> 
+            <select>
+                <option>
+                    R$ Real brasileiro
+
+                </option>
+            </select>
+        </label>
+        <label><br>
+            converte <b>para</b> 
+            <select class="moeda-select">
+                <option value="dolar">US$ Dola americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">  ₿ Bitcoin</option>
+            </select>
+        </label>
+        <label>
+            Valor
+            <input class="input-quantia" placeholder="1.000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="valor1" >
+                <img class="logo-moeda" src="./assets/brasil 2.png" alt="logo-a-converter">
+                <p class="moeda1">Real</p>
+                <p class="valor2-convert">R$ 0,00</p>
+            </div>
+    
+            <div>
+                <img class="seta" src="./assets/Vector.png" alt="seta">
+            </div>
+    
+            <div class="valor1">
+                <img class="logo-moeda-2" src="./assets/estados-unidos (1) 1.png" alt="logo-convertida">
+                <p class="moeda1" id="moeda-nome">Dolar</p>
+                <p class="valor2" >US$ 0,00</p>
+            </div>
+
+        
+        </section>
+
+    </main>
+
+    
+
+   
+
+</body>
+<script src="./arquivo.js"></script>
+
+</html>
